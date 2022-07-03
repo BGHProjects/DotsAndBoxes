@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Dots and Boxes",
+    "slug": "DotsAndBoxes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/dotsandboxes-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/dotsandboxes-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#3F0089"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "boxes.and.dots",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/dotsandboxes-adaptive-icon.png",
+        "backgroundColor": "#3F0089"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
